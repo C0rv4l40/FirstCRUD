@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>CRUD</title>
+</head>
+<body>
+    <div id="container">
+        <div id="topo">
+            <h1 id="crudis">Sistema de CRUD</h1>
+        </div>
+        <div id="meio">
+            <div id="meio-cima">
+                <h2 id="titulos">insira um nome</h2>
+                <input id="nome">
+            </div>
+            <div id="meio-baixo">
+                
+                <button class="btn" onclick="cadastrar()">CADASTRAR</button>
+                <button class="btn" onclick="excluir()">EXCLUIR</button>
+                <button class="btn" onclick="listar()">LISTAR</button>
+                <button class="btn" onclick="editar()">EDITAR</button>
+                <button class="btn" onclick="pesquisar()">PESQUISAR</button>
+                <button class="btn" onclick="window.close()">SAIR</button>                  
+            </div>
+        </div>
+        <div id="baixo">
+        </div>
+    </div>
+    <script src="CRUD.js"></script>
+</body>
+</html>

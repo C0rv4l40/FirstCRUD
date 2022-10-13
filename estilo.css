@@ -1,0 +1,71 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+#container{
+    height:  100%;  
+}
+
+#topo{
+    align-content: center;    
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    
+}
+.crudis{
+    margin-left: 40%;
+}
+
+#meio{
+    height: 80%;
+    width: 100%;
+    background-color: red;
+}
+
+#meio-cima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    background-color: #1275e6;
+}
+.titulos{
+    height: 20%;
+    margin-bottom: 30%;
+}
+.nome{
+    height: 40%;
+    width: 40%;
+    margin-top: 20%;
+    
+}
+
+#meio-baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-color: #1275e6;
+}
+.btn{
+    height: 15%;
+    width: 10%;
+    margin: 2%;
+    margin-bottom: 10%;
+}
+
+#baixo{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
